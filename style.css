@@ -1,0 +1,102 @@
+
+/* Element selectors */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #061130;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    align-items: center;
+}
+
+button{
+    background-color: #1c4BC4;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    }
+
+nav>span{
+    padding: 10px;
+}
+
+main{
+    background-color: #061130;
+    color: white;
+    min-height: 30px;
+    display: flex;
+    }
+
+footer{
+    background-color: #f4f6f8;
+    text-align: center;
+}
+
+img{
+    object-fit: center;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    font-size: small;
+    color: #fafd61;
+}
+
+/* class styles */
+
+.logo{
+    font-size: 20px;
+}
+
+.logo-img{
+    width: 50px;
+}
+
+.section-p{
+    font-size: larger;
+}
+
+.left-section{
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+}
+
+/* .left-section>p {
+    font-size: large;
+    margin-bottom: 65px;
+} */
+
+.right-section{
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 40px;
+  }
+
+/* UTILITIES */
+
+.w-50 {
+    width: 50%;
+}
+
+.d-flex {
+    display: flex
+}
